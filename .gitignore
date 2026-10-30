@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# C++ / CMake
+native/build/
+mendlock/native/*.so
+mendlock/native/*.dll
+mendlock/native/*.dylib
+
+# Node / React SUT
+sut-react/node_modules/
+sut-react/dist/
+
+# Generated Benchmark Corpus & Runtime Artifacts
+bench/out/
+.mendlock/
